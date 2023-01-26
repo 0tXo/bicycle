@@ -5,13 +5,16 @@
     text-decoration: none;
 }
 body{
-    background-color: rgb(128, 255, 255);
+    background-color: rgb(150, 120, 173);
 }
 .main{
-    width: 1100px;
-    height: 550px;
+    width: 1010px;
+    height: 555px;
     margin: 50px auto;
-    background-color: rgb(242, 242, 242);
+    background-image: url(../img/bckimg.png);
+    background-repeat: no-repeat;
+    background-size: 1010px;
+
 }
 .header{
     width: 100%;
@@ -19,28 +22,26 @@ body{
 }
 .logo{
     margin-left: 35px;
-    margin-top: 16px;
+    margin-top: 13px;
     display: inline-block;
     vertical-align: middle;
 }
 .nav1{
     display: inline-block;
-    margin-left: 250px;
+    margin-left: 180px;
 }
 .li1{
     display: inline-block;
     vertical-align: middle;
-    margin-top: 20px;
     margin-right: 35px;
-    font-size: 19px;
+    font-size: 20px;
     transition-delay: 0.1s;
     transition-duration: 0.2s;
 }
 .li2{
     display:inline-block;
     vertical-align: middle;
-    margin-top: 20px;
-    font-size: 19px;
+    font-size: 20px;
     transition-delay: 0.1s;
     transition-duration: 0.2s;
 }
@@ -58,22 +59,22 @@ body{
     width: 150px;
     height: 26px;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
     outline: none;
     border-color: black;
     border-width: 1px;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(170, 111, 170);
 }
 .btn{
     cursor: pointer;
     display: inline;
     border: none;
     position: absolute;
+    background-color: rgb(160, 111, 170);
 }
 .search1{
     height: 16px;
-    margin-top: 24px;
+    margin-top: 5px;
     margin-left: 5px;
     display: flex;
 }
@@ -91,13 +92,46 @@ body{
 }
 .prf{
     height: 35px;
-    margin-left: 80px;
+    margin-left: 70px;
     display: flex;
-    margin-top: 15px;
 }
 .li1:hover{
     font-size: 23px;
 }
 .li2:hover{
     font-size: 23px;
+}
+.socbox{
+    width: 40px;
+    height: 170px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.fb{
+    height: 40px;
+    margin-bottom: 10px;
+}
+.ig{
+    height: 40px;
+    margin-bottom: 10px;
+}
+.yt{
+    height: 40px;
+}
+.btnbox{
+    height: 80px;
+    width: 170px;
+    margin-top: 375px;
+}
+.shoptext{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: inline-block;
+    color: black;
+    transition-delay: 0.1ss;
+    transition-duration: 0.2s;
+}
+.shoptext:hover{
+    font-size: 18px;
 }
