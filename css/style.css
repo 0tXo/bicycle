@@ -120,14 +120,12 @@ body{
     height: 40px;
 }
 .btnbox{
-    height: 80px;
-    width: 170px;
-    margin-top: 375px;
+    margin-top: 408px;
+    display: inline-block;
 }
 .shoptext{
-    margin-top: 30px;
-    margin-left: 40px;
-    display: inline-block;
+    padding: 30px;
+    display: inline;
     color: black;
     transition-delay: 0.1ss;
     transition-duration: 0.2s;
